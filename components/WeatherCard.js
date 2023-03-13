@@ -2,7 +2,7 @@ import React from 'react';
 
 const WeatherCard = ({ elem }) => {
 	return (
-		<div className="max-w-md p-8 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
+		<div className="max-w-md p-4 m-4 rounded-lg dark:bg-gray-900 dark:text-gray-100">
 			<div className="flex justify-between space-x-8">
 				<div className="flex flex-col items-center">
 					<svg
