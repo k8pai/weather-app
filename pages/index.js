@@ -83,46 +83,8 @@ export default function Home() {
 	};
 
 	return (
-		<div className=" w-full min-h-screen h-full flex justify-center">
+		<div className=" w-full flex justify-center">
 			<div className="flex flex-col space-y-8">
-				<div>
-					<form
-						className="flex flex-col space-y-4 my-6 justify-center"
-						onSubmit={fetchLocation}
-					>
-						<input
-							className="py-2 px-3 rounded-md border border-black"
-							type={'text'}
-							name="subregion"
-							value={location.subregion}
-							onChange={handleChange}
-							placeholder="Enter subregion ... "
-						/>
-						<input
-							className="py-2 px-3 rounded-md border border-black"
-							type={'text'}
-							name="state"
-							value={location.state}
-							onChange={handleChange}
-							placeholder="Enter state ... "
-						/>
-						<input
-							className="py-2 px-3 rounded-md border border-black"
-							type={'text'}
-							name="country"
-							value={location.country}
-							onChange={handleChange}
-							placeholder="Enter country ... "
-						/>
-						<button
-							type="submit"
-							className="rounded-md transition duration-150 mx-auto shadow-xl border-2 border-gray-700/40 text-gray-700/40 hover:border-gray-600/90 hover:text-gray-600/90 w-fit py-2 px-3"
-						>
-							{' '}
-							get Lan & Lon
-						</button>
-					</form>
-				</div>
 				<div className="">
 					<button
 						onClick={(e) => {
